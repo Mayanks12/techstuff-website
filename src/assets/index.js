@@ -32,6 +32,7 @@ import serverless from './serverless.png';
 import database from './database.jpeg';
 import mobile from './mobile.jpeg';
 import devops from './devOps.png';
+import howWeWorks from './how-we-works.png';
 
 export {
   airbnb,
@@ -68,4 +69,5 @@ export {
   database,
   mobile,
   devops,
+  howWeWorks,
 };
