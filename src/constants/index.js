@@ -11,14 +11,15 @@ import {
   instagram,
   linkedin,
   logoDesign,
-  mobile,
   mobileApplication,
+  mobileDevelopment,
   people01,
   people02,
   people03,
-  serverless,
+  softwareDevelopment,
   twitter,
   webApplication,
+  webDevelopment,
 } from '../assets';
 
 export const navLinks = [
@@ -226,71 +227,31 @@ export const clients = [
 
 export const services = [
   {
-    category: 'Backend',
-    image: backend,
+    category: 'Web Development',
+    image: webDevelopment,
     description:
-      'Combat development challenges by reinforcing the backend functioning of the application with easy synchronization of different features and seamless communication with relational or NoSQL databases.',
+      "Elevate your digital presence with our cutting-edge Web Development services. Our expert team crafts dynamic and responsive websites tailored to your unique business needs. From sleek design to seamless functionality, we specialize in creating user-centric experiences that drive engagement and deliver results. Whether you're launching a new site or revamping an existing one, trust us to bring your vision to life. Explore the power of innovative web solutions that not only meet but exceed expectations. Transform your online presence with our Web Development expertise and stay ahead in the ever-evolving digital landscape",
     items: ['.net', 'Java', 'PHP', 'Python', 'Node.JS', 'Rails'],
   },
   {
-    category: 'Backend as service',
-    image: serverless,
+    category: 'Mobile Development',
+    image: mobileDevelopment,
     description:
-      'Experience the future of streamlined development with our serverless computing solutions. We empower your applications to scale effortlessly, reduce infrastructure management complexities, and enhance overall efficiency. Embrace a serverless approach for seamless, cost-effective, and scalable solutions tailored to elevate your digital presence',
-    items: [
-      'Firebase Functions',
-      'Google Cloud Functions',
-      'AWS Lambda',
-    ],
-  },
-  {
-    category: 'Database',
-    image: database,
-    description:
-      'Consolidate data from multiple complex data sources and manage end-to-end data integration to predict significant and actionable insights.',
-    items: [
-      'MySQL',
-      'PostGre',
-      'SQL',
-      'Cassandra',
-      'ElasticSearch',
-      'MongoDB',
-      'Oracle',
-      'DynamoDB',
-      'Microsoft SQL server',
-    ],
-  },
-  {
-    category: 'Mobile',
-    image: mobile,
-    description:
-      'Transform web applications into leading-edge mobile applications by enabling mobility across multiple platforms such as iOS, Android, and windows.',
+      "Elevate your digital presence with our cutting-edge mobile development services. Our expert team crafts seamless and innovative mobile applications tailored to your unique business needs. From concept to deployment, we specialize in creating user-friendly iOS and Android apps that captivate audiences and drive engagement. Whether you're a startup or an established enterprise, our mobile development solutions ensure a sleek, responsive, and feature-rich experience for your users. Trust us to transform your ideas into reality, delivering mobile solutions that stand out in today's dynamic digital landscape. Experience the future of mobile technology with our dedicated development team",
     items: ['Ios', 'Android', 'Flutter', 'React-Native', 'Xamarin'],
   },
   {
-    category: 'Cloud & DevOps',
-    image: devops,
+    category: 'Software Development',
+    image: softwareDevelopment,
     description:
-      'Fast Track your deliveries using agile and cloud-based technology approach for anytime and anywhere accessibility and transparency.',
-    items: ['AWS', 'Google', 'Cloud', 'Cloud & Devops'],
+      'Elevate your digital vision with our cutting-edge software development services. Our team of seasoned developers crafts bespoke solutions tailored to your unique needs. From scalable web applications to robust mobile apps, we leverage the latest technologies to bring your ideas to life. Embrace innovation, streamline processes, and stay ahead of the competition with our expertise in agile development. Let us transform your concepts into powerful, user-centric software that drives success. Join us on the journey of creating exceptional digital experiences that redefine possibilities',
+    items: ['Chat', 'Authentication', 'Healthcare', 'HRMS'],
   },
-  // {
-  //   category: 'Testing',
-  //   description:
-  //     'Ensure high performing and bug-free applications by implementing our structured Testing methodologies for your tangled and complex applications.',
-  //   items: [
-  //     'Selenium',
-  //     'Katalon',
-  //     'Studio',
-  //     'Apache',
-  //     'JMeter',
-  //     'TestRail',
-  //   ],
-  // },
-  // {
-  //   category: 'Others',
-  //   description:
-  //     'Leverage our capabilities to better upgrade and reinforce your business models using leading modern technology offerings.',
-  //   items: ['Share Point', 'PowerBI', 'Kafka'],
-  // },
+  {
+    category: 'Graphic Design',
+    image: webDevelopment,
+    description:
+      'Elevate your brand with our Graphic Design expertise. Our talented team of designers brings creativity to life, crafting visually stunning and impactful designs that resonate with your audience. From eye-catching logos to compelling marketing collateral, we specialize in transforming ideas into captivating visual experiences. With a keen focus on aesthetics and brand identity, our Graphic Design section ensures that every element reflects the essence of your business. Let us amplify your visual presence and leave a lasting impression on your customers. Explore the power of design excellence with us',
+    items: [],
+  },
 ];

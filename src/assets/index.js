@@ -33,6 +33,9 @@ import database from './database.jpeg';
 import mobile from './mobile.jpeg';
 import devops from './devOps.png';
 import howWeWorks from './how-we-works.png';
+import webDevelopment from './web-development.png';
+import mobileDevelopment from './mobile-development.webp';
+import softwareDevelopment from './software-development.webp';
 
 export {
   airbnb,
@@ -70,4 +73,7 @@ export {
   mobile,
   devops,
   howWeWorks,
+  webDevelopment,
+  mobileDevelopment,
+  softwareDevelopment,
 };
