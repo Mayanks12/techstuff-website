@@ -1,20 +1,24 @@
 import {
   airbnb,
+  backend,
   binance,
   coinbase,
+  database,
+  devops,
   dropbox,
+  erp,
   facebook,
   instagram,
   linkedin,
+  logoDesign,
+  mobile,
   mobileApplication,
   people01,
   people02,
   people03,
-  send,
+  serverless,
   twitter,
   webApplication,
-  erp,
-  logoDesign,
 } from '../assets';
 
 export const navLinks = [
@@ -223,12 +227,14 @@ export const clients = [
 export const services = [
   {
     category: 'Backend',
+    image: backend,
     description:
       'Combat development challenges by reinforcing the backend functioning of the application with easy synchronization of different features and seamless communication with relational or NoSQL databases.',
     items: ['.net', 'Java', 'PHP', 'Python', 'Node.JS', 'Rails'],
   },
   {
     category: 'Backend as service',
+    image: serverless,
     description:
       'Experience the future of streamlined development with our serverless computing solutions. We empower your applications to scale effortlessly, reduce infrastructure management complexities, and enhance overall efficiency. Embrace a serverless approach for seamless, cost-effective, and scalable solutions tailored to elevate your digital presence',
     items: [
@@ -238,13 +244,8 @@ export const services = [
     ],
   },
   {
-    category: 'Frontend',
-    description:
-      'Reinvent the look and feel of web applications using JavaScript technologies along with HTML and CSS to improve aesthetics and enhance the digital experience of your customers.',
-    items: ['Angular JS/ Angular', 'React JS', 'Vue.JS'],
-  },
-  {
     category: 'Database',
+    image: database,
     description:
       'Consolidate data from multiple complex data sources and manage end-to-end data integration to predict significant and actionable insights.',
     items: [
@@ -261,33 +262,35 @@ export const services = [
   },
   {
     category: 'Mobile',
+    image: mobile,
     description:
       'Transform web applications into leading-edge mobile applications by enabling mobility across multiple platforms such as iOS, Android, and windows.',
     items: ['Ios', 'Android', 'Flutter', 'React-Native', 'Xamarin'],
   },
   {
     category: 'Cloud & DevOps',
+    image: devops,
     description:
       'Fast Track your deliveries using agile and cloud-based technology approach for anytime and anywhere accessibility and transparency.',
     items: ['AWS', 'Google', 'Cloud', 'Cloud & Devops'],
   },
-  {
-    category: 'Testing',
-    description:
-      'Ensure high performing and bug-free applications by implementing our structured Testing methodologies for your tangled and complex applications.',
-    items: [
-      'Selenium',
-      'Katalon',
-      'Studio',
-      'Apache',
-      'JMeter',
-      'TestRail',
-    ],
-  },
-  {
-    category: 'Others',
-    description:
-      'Leverage our capabilities to better upgrade and reinforce your business models using leading modern technology offerings.',
-    items: ['Share Point', 'PowerBI', 'Kafka'],
-  },
+  // {
+  //   category: 'Testing',
+  //   description:
+  //     'Ensure high performing and bug-free applications by implementing our structured Testing methodologies for your tangled and complex applications.',
+  //   items: [
+  //     'Selenium',
+  //     'Katalon',
+  //     'Studio',
+  //     'Apache',
+  //     'JMeter',
+  //     'TestRail',
+  //   ],
+  // },
+  // {
+  //   category: 'Others',
+  //   description:
+  //     'Leverage our capabilities to better upgrade and reinforce your business models using leading modern technology offerings.',
+  //   items: ['Share Point', 'PowerBI', 'Kafka'],
+  // },
 ];

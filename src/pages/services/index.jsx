@@ -1,7 +1,6 @@
 import { services } from '../../constants/index.js';
 
 import React from 'react';
-import { bill } from '../../assets/index.js';
 import styles, { layout } from '../../style';
 
 const ServicesPage = () => {
@@ -15,7 +14,7 @@ const ServicesPage = () => {
           <div key={index} className="flex">
             <div className={layout.sectionImgReverse}>
               <img
-                src={bill}
+                src={service.image}
                 alt="billing"
                 className="w-[100%] h-[100%] relative z-[5]"
               />

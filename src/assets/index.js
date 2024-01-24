@@ -27,6 +27,11 @@ import webApplication from './web-application.svg';
 import mobileApplication from './mobile-application.svg';
 import erp from './erp.svg';
 import logoDesign from './logo-design.svg';
+import backend from './backend.jpeg';
+import serverless from './serverless.png';
+import database from './database.jpeg';
+import mobile from './mobile.jpeg';
+import devops from './devOps.png';
 
 export {
   airbnb,
@@ -58,4 +63,9 @@ export {
   mobileApplication,
   erp,
   logoDesign,
+  backend,
+  serverless,
+  database,
+  mobile,
+  devops,
 };
