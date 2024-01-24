@@ -8,6 +8,7 @@ import HomePage from './pages/home/index.jsx';
 import Layout from './layout.jsx';
 import { Navbar } from './components/index.js';
 import ServicesPage from './pages/services/index.jsx';
+import { AboutPage } from './pages/about/index.jsx';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Layout>
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
             <Route path="/services" element={<ServicesPage />} />
           </Routes>
         </Layout>

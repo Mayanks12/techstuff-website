@@ -1,13 +1,5 @@
 import styles from '../../style.js';
-import {
-  Business,
-  CTA,
-  Footer,
-  Hero,
-  Navbar,
-  Stats,
-  Testimonials,
-} from '../../components/index.js';
+import { CTA, Hero, Stats } from '../../components/index.js';
 import React from 'react';
 
 const HomePage = () => {
@@ -31,10 +23,10 @@ const HomePage = () => {
       >
         <div className={`${styles.boxWidth}`}>
           <Stats />
-          <Business />
-          {/*<Billing/>*/}
+          {/*<Business />*/}
+          {/*<Billing />*/}
           {/*<CardDeal/>*/}
-          <Testimonials />
+          {/*<Testimonials />*/}
           {/*<Clients/>*/}
           <CTA />
           {/*<Footer />*/}
