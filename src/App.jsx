@@ -9,6 +9,7 @@ import Layout from './layout.jsx';
 import { Navbar } from './components/index.js';
 import ServicesPage from './pages/services/index.jsx';
 import { AboutPage } from './pages/about/index.jsx';
+import { ContactPage } from './pages/contact/index.jsx';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/services" element={<ServicesPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </Layout>
       </Router>
