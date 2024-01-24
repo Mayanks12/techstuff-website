@@ -11,7 +11,13 @@ const ServicesPage = () => {
     >
       <div className="flex flex-col gap-20">
         {services.map((service, index) => (
-          <div key={index} className="flex">
+          <div
+            key={index}
+            className={`flex ${
+              index % 2 === 0 ? '' : 'flex-row-reverse'
+            }`}
+          >
+            {/*Image*/}
             <div className={layout.sectionImgReverse}>
               <div className="w-full h-auto rounded-3xl overflow-hidden">
                 <img
@@ -23,6 +29,8 @@ const ServicesPage = () => {
               <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
               <div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient" />
             </div>
+
+            {/*content*/}
             <div className={layout.sectionInfo}>
               <h2 className={styles.heading2}>{service.category}</h2>
               <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
